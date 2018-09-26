@@ -5,4 +5,29 @@
   </h1>
 </div>
 
+<div class="ui-g-9">
+  <p-panel header ="AC VOLTS" class="ui-g-6 ui-md-6">
+    <p-chart type="line" [data]="acVoltsByTime" [options]="optionsVolts">
+
+    </p-chart>
+  </p-panel>
+
+  <p-panel header ="AC Ampères" class="ui-g-6 ui-md-6">
+      <p-chart type="line" [data]="acAmperesByTime" [options]="optionsAmperes">
+  
+      </p-chart>
+    </p-panel>
+
+</div>
+
+<div class="ui-g-9">
+    <p-panel header ="Fuel Level Volume" class="ui-g-6 ui-md-6">
+      <p-chart type="line" [data]="fuelByTime" [options]="optionsFuel">
+  
+      </p-chart>
+    </p-panel>
+  
+
+  
+  </div>
 
